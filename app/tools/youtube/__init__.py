@@ -7,7 +7,7 @@ Current tools:
 youtube.channel.my_uploads
 """
 
-from **future** import annotations
+from future import annotations
 
 from app.integrations.youtube_api import YouTubeApiClient
 from app.tools.registry import ToolRegistry
