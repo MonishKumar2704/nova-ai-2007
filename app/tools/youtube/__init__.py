@@ -14,7 +14,7 @@ from app.tools.registry import ToolRegistry
 
 from app.tools.youtube.channel import MyUploadsTool
 
-def register_youtube_tools(registry: ToolRegistry,client: YouTubeApiClient, search_cache=youtube_search_cache) -> None:
+def register_youtube_tools(registry: ToolRegistry,client: YouTubeApiClient, search_cache:youtube_search_cache) -> None:
 
 # ------------------------------------------------------------------
 # Channel tools
