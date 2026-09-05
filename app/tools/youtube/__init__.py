@@ -22,7 +22,7 @@ def register_youtube_tools(registry: ToolRegistry,client: YouTubeApiClient,) -> 
 
 # List videos uploaded by the connected Google account's
 # own YouTube channel.
-registry.register(
-    MyUploadsTool(client=client)
-)
+  registry.register(
+      MyUploadsTool(client=client)
+  )
 ```
