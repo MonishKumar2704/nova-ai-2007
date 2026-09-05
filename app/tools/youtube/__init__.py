@@ -25,4 +25,4 @@ def register_youtube_tools(registry: ToolRegistry,client: YouTubeApiClient,) -> 
   registry.register(
       MyUploadsTool(client=client)
   )
-```
+
